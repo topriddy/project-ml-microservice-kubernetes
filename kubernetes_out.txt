@@ -1,0 +1,7 @@
+./make_prediction.sh
+Port: 31766
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
