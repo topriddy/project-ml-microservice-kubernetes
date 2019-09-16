@@ -1,0 +1,10 @@
+deployment.apps/udacity-ml-app created
+NAME                             READY     STATUS              RESTARTS   AGE
+udacity-ml-app-b77c59d44-v859r   0/1       ContainerCreating   0          0s
+service/udacity-ml-app exposed
+
+./run_kubernetes.sh
+Error from server (AlreadyExists): deployments.apps "udacity-ml-app" already exists
+NAME                             READY     STATUS    RESTARTS   AGE
+udacity-ml-app-b77c59d44-v859r   1/1       Running   0          13m
+Error from server (AlreadyExists): services "udacity-ml-app" already exists
